@@ -1,4 +1,4 @@
-# --- minecraft_bot.py ---
+# --- main.py ---
 import os
 import logging
 import asyncio
@@ -20,7 +20,7 @@ logging.basicConfig(
 )
 logger = logging.getLogger("MinecraftBot")
 
-BOT_TOKEN = os.getenv("BOT_TOKEN", "YOUR_BOT_TOKEN_HERE")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8710510225:AAHgBO1JIULexzjc_U5Rzn8KQQ14h2ljlR4")
 ADMIN_LOGIN = "limed"
 ADMIN_PASSWORD = "albatiros"
 
